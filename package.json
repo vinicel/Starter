@@ -2,17 +2,21 @@
   "name": "parcel",
   "version": "1.0.0",
   "description": "starter",
-  "main": "index.js",
+  "main": "src/index.js",
   "author": "Guillaume",
   "license": "MIT",
   "private": "false",
   "scripts": {
-    "start": "parcel index.html",
-    "build": ""
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.js"
   },
   "dependencies": {
     "autoprefixer": "^8.0.0",
     "node-sass": "^4.7.2",
     "parcel-bundler": "^1.6.2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1"
   }
 }
+
